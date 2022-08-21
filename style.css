@@ -25,6 +25,10 @@ header {
     padding: 20px 75px;
 }
 
+#introID {
+    padding: 0px 100px;
+}
+
 li, a, button {
     font-family: "Alumni Sans Pinstripe", sans-serif;
     font-weight: 500;
@@ -75,22 +79,12 @@ p {
     font-weight: 500;
     font-size: 25px;
     color: white;
-    padding: 0px 100px;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 25px;
+    padding: 25px 25px;
 }
 
 img {
-    width: 1300px;
+    width: 1270px;
 }
-
-/*
-.container {
-    position: relative;
-    text-align: center;
-}
-
-.header_title {
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-}
-*/
