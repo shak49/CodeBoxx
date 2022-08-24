@@ -26,7 +26,19 @@ header {
 }
 
 #introID {
-    padding: 0px 100px;
+    text-indent: 50px;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    padding: 25px 0px;
+}
+
+#div_id_1 {
+    display: inline;
+    width: 75px;
+    height: 125px;
+    border: solid 1px yellow;
 }
 
 li, a, button {
@@ -35,12 +47,6 @@ li, a, button {
     font-size: 18px;
     color: white;
     text-decoration: none;
-}
-
-button {
-    background-color: red;
-    width: 60px;
-    border-radius: 5px;
 }
 
 .logo {
@@ -65,24 +71,20 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-h1 {
+.div_intro {
+    margin: 25px 100px;
+}
+
+.header_title {
     font-family: "Alumni Sans Pinstripe", sans-serif;
     font-weight: 500;
     font-size: 50px;
     color: yellow;
-    padding: 25px 100px;
 }
 
-p {
-    text-indent: 50px;
-    font-family: "Alumni Sans Pinstripe", sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    color: white;
-    border-style: solid;
-    border-color: yellow;
-    border-radius: 25px;
-    padding: 25px 25px;
+.div_trending {
+    align-items: center;
+    margin: 25px;
 }
 
 img {
