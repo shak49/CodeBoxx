@@ -23,6 +23,31 @@ header {
     font-size: 50px;
     color: yellow;
     padding: 20px 75px;
+    margin-right: 100px;
+}
+
+#banner_textID {
+    position: absolute;
+    left: 75px;
+    top: 300px;
+    max-width: 750px;
+    max-height: 750px;
+    font-weight: 500;
+    font-size: 150px;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    line-height: 150px;
+    background-color: transparent;
+    color: rgb(0, 25, 60);
+}
+
+#signinID {
+    border: solid 1px lightblue;
+    border-radius: 5px;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: lightblue;
+    padding: 3px 7px;
 }
 
 #introID {
@@ -32,13 +57,6 @@ header {
     font-size: 25px;
     color: white;
     padding: 25px 0px;
-}
-
-#div_id_1 {
-    display: inline;
-    width: 75px;
-    height: 125px;
-    border: solid 1px yellow;
 }
 
 li, a, button {
@@ -82,11 +100,7 @@ li, a, button {
     color: yellow;
 }
 
-.div_trending {
-    align-items: center;
-    margin: 25px;
-}
-
 img {
-    width: 1270px;
+    align-self: center;
+    width: 1300px;
 }
