@@ -7,12 +7,13 @@
     <head>
         <title>[Code-Boxx]</title>
         <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
     </head>
     <body>
         <nav>
             <ul class="nav_links">
                 <li id="cbID">[Code-Boxx]</h1>
-                <li><a href="home">Home</a></li>
+                <li><a href="home.home">Home</a></li>
                 <li><a href="articles">Articles</a></li>
                 <li><a href="projects">Projects</a></li>
                 <li><a href="about">About</a></li>
@@ -20,18 +21,7 @@
                 <li><a id="signinID" href="Sign-In / Sign-Up">Sign-In / Sign-Up</a></li>
             </ul>
         </nav>
-        <div>
-            <img src="banner2.jpg" alt="banner">
-            <div id="banner_textID">Welcome to [Code-Boxx]</div>
-        </div>
-        <section>
-            <div class="div_intro">
-                <h1 class="header_title">Hello, world! Welcome to [Code-Boxx].</h1>
-                <p id="introID">
-                    This is a place for tech enthuseastic, developers and software engineers to learn, experience and contribute in this environment. Share your thoughts, experience, problems and solutions here. Maybe someone else has a same problem.
-                </p>
-            </div>
-        </section>
+            <div w3-include-html=".home/home.html"></div>
         <hr>
     </body>
 </html>
